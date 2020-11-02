@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+<head>
+    <title>Вход на страницу</title>
+</head>
+<body bgcolor=#925142>
+    
+    
+    <p align="center" style=" font-size:30px">
+        Вы собираетесь посетить сайт посвященный японскому писателю Юкио Мишиме</p>
+       <center><img src="YM.gif" name="pic1" width=900 height=900></center>
+     
+    <script type="text/javascript">
+        function Input(){
+        login_ok = false;
+        user_name = "";
+        password = "";
+        user_name = prompt("Логин","");
+        user_name = user_name.toLowerCase();
+        password = prompt("Пароль","");
+        password = password.toLowerCase();
+        if (user_name=="dino" && password=="qwerty") {
+         login_ok = true;
+         window.location = "index.html";
+        }
+       
+        if (login_ok==false) alert("Неверный логин или пароль!");
+        }
+        </script>
+    <style>
+        .block {
+          display: block;
+          width: 100%;
+          border: none;
+          background-color: #4CAF50;
+          color: white;
+          padding: 14px 28px;
+          font-size: 16px;
+          cursor: pointer;
+          text-align: center;
+        }
+        
+        .block:hover {
+          background-color: #ddd;
+          color: black;
+        }
+        </style>
+        </head>
+        <body>
+        
+    <div align="center">
+        <form>
+         <input type="button" class="block" value="Войти на сайт" onClick="Input()">
+        </form>
+       </div>
+</body>
+
+</html>

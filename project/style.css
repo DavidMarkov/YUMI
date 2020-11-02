@@ -1,0 +1,66 @@
+
+
+html {
+	height: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font: 12px/18px Arial, sans-serif;
+	height: 100%;
+}
+.wrapper {
+	width: 100%;
+	min-width: 1000px;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+	height: 45px;
+	background: #FF0000;
+    
+}
+    #center { text-align: center; }
+        
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.content {
+	padding: 0 0 30px;
+}
+
+    #center { text-align: center; }
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	margin: -30px auto 0;
+	min-width: 1000px;
+	height: 20px;
+	background: #BFF08E;
+	position: relative;
+}
+
+.container{
+    background-color: blue;
+    height: 100px
+}
+.block1, .block2{
+    float: left;
+    border: 1px solid black;
+    padding: 10px;
+    width: 50%;
+    box-sizing: border-box;
+    
+}
+
+.clearfix{
+    clear: both;
+}
